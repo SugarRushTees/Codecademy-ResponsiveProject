@@ -1,0 +1,327 @@
+/** Formatting **/
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 18px;
+}
+
+header {
+  background-color: darkgrey;
+}
+
+/* Navigation links */
+#quickLinks {
+  background-color: rgb(193, 193, 193);
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 20px 80px 20px 80px;
+  font-size: 25px;
+  color: rgb(130, 56, 56);
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  text-shadow: 1px 3px #ffffff;
+}
+
+/** Navigation links - while mouse is hovering **/
+#quickLinks a:hover {
+  font-weight: bolder;
+  text-shadow: 1px 3px #71c814;
+}
+
+#beginnings h2 {
+  font-family: "Akaya Telivigala";
+  text-align: right;
+}
+
+#beginnings img {
+  max-height: 600px;
+  border-radius: 10%;
+  overflow:scale;
+  margin-top: 200px;
+}
+
+#beginnings .col-md-4 p, #beginnings .col p {
+  font-family: "Playwrite NO", cursive;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+#subHeading {
+  font-style: italic;
+  text-align: center;
+}
+
+/* Welcome to the world of... */
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Akaya Telivigala";
+}
+
+#bikes a:hover {
+  color: green;
+}
+
+/** My motorbikes & next bike headers **/
+#bikes h2,
+#future h2 {
+  text-align: left;
+  font-family: "Akaya Telivigala";
+  width: 99%;
+  /* margin-top: 40px; */
+}
+
+#color ul {
+  text-decoration: blanchedalmond;
+}
+
+/** subtitle / bike details, eg 650cc **/
+#bikes h2, #bikes h4 {
+  font-style: italic;
+  font-family: "Akaya Telivigala";
+  /* margin-top: -5px; */
+}
+
+#bikes a {
+  font-style: italic;
+}
+
+#bikes img {
+  max-height: 300px;
+  margin-top: -150px;;
+  padding-left:40px;
+}
+
+/** Full bike section of page **/
+#bikes {
+  font-family: "Akaya Telivigala";
+}
+
+#nextBikeInfo {
+  font-size: 18px;
+  font-family: "Playwrite NO", cursive;
+  color: darkblue;
+  text-align: left;
+}
+
+/** container with all the bikes' text **/
+ .pros,
+.futurePros {
+  color: rgb(9, 144, 9);
+  padding-left: 5px;
+  font-weight: 16px;
+  font-size: 24px;
+} 
+
+/** "pros"/** div sections formatted by bootstrap **/
+#future .col-md-4 {
+  border-color: blue;
+  border-style: solid;
+  padding: 10px;
+  margin: 20px;
+}
+
+/** future section - bike titles/info **/
+#future h5 {
+  font-family: "Playwrite Norge";
+  text-shadow: 1px 0px #be3454;
+  font-size: larger;
+}
+
+#future h6 {
+  font-family: "Playwrite NO", cursive;
+}
+
+/* 4 different potential bikes to puchase in the future */
+#future img {
+  width: 100%;
+  max-height:400px;
+  margin-top: unset;
+}
+
+/**heading in "con's" lists **/
+.cons {
+  color: darkred;
+  text-align: centre;
+  font-size: 24px;
+}
+
+/** heading in "con's" lists **/
+.col-sm-4 .cons h5 {
+  color: rgb(86, 0, 10);
+  font-weight: bold;
+  font-size: 32px;
+}
+
+/** Community/social section -> heading **/
+#social h2 {
+  font-size: 45px;
+  color: rgb(66, 5, 5);
+  font-family: "Akaya Telivigala";
+  font-style: normal;
+  text-align: left;
+}
+
+#social p {
+  text-align: left;
+  font-family: "Playwrite NO", cursive;
+  font-size: 18px;
+  width: 97%;
+}
+
+#bikes li {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif, none;
+  list-style-type: none;
+}
+
+img#MT07 {
+  width: 90%;
+}
+
+.dropdown {
+  justify-content: left;
+}
+
+.btn-default {
+  outline: darkblue;
+  outline-style: groove;
+  justify-content: left;
+  font-size: 20px;
+  background-color: #3d0617;
+  color: #e2e2e2;
+  font-family: cursive;
+  margin:20px 10px 00px 10px;
+}
+
+.btn-default:hover {
+  color: rgb(6, 72, 6, 50%);
+}
+
+/** socials - dropdown - links to facebook pages **/
+.dropdown-menu > .fbLinks > a {
+  color: rgb(37, 76, 203);
+  font-size: 16px;
+}
+
+.dropdown-menu > .fbLinks > a:hover {
+  color: rgb(11, 37, 123);
+  font-weight: bold;
+}
+
+/** socials - dropdown - links to instagram pages **/
+.dropdown-menu > .igLinks > a {
+  color: rgb(155, 39, 101);
+  /* at his ecpense, poor guy. font-size: 16px; */
+}
+.dropdown-menu > .igLinks > a:hover {
+  color: rgb(114, 22, 71);
+  font-weight: bold;
+}
+
+/** socials - dropdown - links to reddit pages **/
+.dropdown-menu > .rLinks > a {
+  color: rgb(176, 30, 22);
+  font-size: 16px;
+}
+.dropdown-menu > .rLinks > a:hover {
+  color: rgb(103, 11, 6);
+  font-weight: bold;
+}
+
+footer {
+  align-content: end;
+  margin: 120px 4px 10px 5px;
+  font-style: italic;
+  color: rgb(61, 58, 58);
+}
+
+/*---------------------Adjustments for smaller screen sizes------------------*/
+/*tablet size --------------------------------------------------------------- */
+@media screen and (768px < width < 1024px) {
+  header {
+    background-color: rgb(236, 206, 166);
+  }
+
+  #quickLinks {
+    font-size: 20px;
+  }
+
+  #beginnings img {
+    max-height: 500px;
+    border-radius: 10%;
+    margin: 10px 0px 10px 0px;
+  }
+
+  #beginnings .col-md-4 p {
+     line-height: 1.4;
+  }
+
+  #beginnings h2 {
+  text-align: center;
+  }
+
+  #beginnings .col p {
+    width: 95%;
+    line-height: 1.4;
+  }
+
+  #bikes {
+    background-color: rgb(242, 192, 130);
+  }
+
+  /* Bikes I have owned - Boulevard and Rebel */
+  #bikes img {
+    max-height: 300px;
+    margin-top: -130px;;
+    padding-left:60px;
+  }
+
+  #bikes li {
+    color: rgb(3, 15, 9);
+    font-size: 18px;
+  }
+
+  /** heading in "con's" lists **/
+  .cons {
+    color: rgb(90, 9, 19);
+  }
+
+   .col-sm-8 {
+    width:fit-content;
+    margin: 8px;
+  } 
+}
+/* Phone size screens ---------------------------------------------------------- */
+@media screen and (width <=768px) {
+  header {
+    background-color: rgb(104, 46, 118);
+    color: white;
+  }
+  #beginnings img {
+    border-radius: 10%;
+    margin: 0px 5px 0px 15px;
+  }
+
+  #beginnings .col p {
+    font-family: "Playwrite NO", cursive;
+    font-size: 20px;
+    line-height: 1.8;
+    width: 135%;
+  }
+
+  #quickLinks {
+    font-size: 17px;
+    background-color: rgb(174, 149, 218);
+  }
+  /** Navigating South still a& adding some south numbers **/
+  #subHeading {
+    font-size: 20px;
+  }
+}
